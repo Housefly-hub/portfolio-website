@@ -93,7 +93,7 @@ const ResumeSection = () => {
     return (
         <section id="resume" className="py-24 bg-slate-900">
             <div className="container mx-auto px-6">
-                <h2 className="text-3xl font-bold text-center text-white mb-16">Interactive Resume</h2>
+                <h2 className="text-3xl font-bold text-center text-white mb-16">Resume</h2>
                 <div className="relative max-w-2xl mx-auto">
                     <div className="absolute left-1/2 -translate-x-1/2 h-full w-0.5 bg-slate-700"></div>
                     {resumeData.map((item, index) => (
@@ -166,10 +166,10 @@ const ProjectsSection = () => {
 
 const ContactSection = () => {
     const contacts = [
-        { name: 'Github', icon: 'Github', url: 'https://github.com/your-username', handle: '@your-username' },
-        { name: 'Linkedin', icon: 'Linkedin', url: 'https://linkedin.com/in/your-profile', handle: 'Your Name' },
-        { name: 'WhatsApp', icon: 'MessageCircle', url: 'https://wa.me/yourphonenumber', handle: 'Message Me' },
-        { name: 'Email', icon: 'Mail', url: 'mailto:your.email@example.com', handle: 'your.email@example.com' },
+        { name: 'Github', icon: 'Github', url: 'https://github.com/Housefly-hub', handle: '@Housefly-hub' },
+        { name: 'Linkedin', icon: 'Linkedin', url: 'https://linkedin.com/in/deepak-yadav-ra-141013', handle: 'Deepak Yadav' },
+        { name: 'WhatsApp', icon: 'MessageCircle', url: 'https://wa.me/8160541531', handle: 'Message Me' },
+        { name: 'Email', icon: 'Mail', url: 'mailto:deepak93905@gmail.com', handle: 'deepak93905@gmail.com' },
     ];
 
     return (
@@ -197,7 +197,7 @@ const ContactSection = () => {
 const Footer = () => (
     <footer className="bg-slate-900 border-t border-slate-800 py-6">
         <div className="container mx-auto px-6 text-center text-slate-400">
-            <p>&copy; {new Date().getFullYear()} [Your Name]. All Rights Reserved.</p>
+            <p>&copy; {new Date().getFullYear()} [Deepak Yadav]. All Rights Reserved.</p>
             <p className="text-sm mt-2">Built with React, Firebase, and a passion for technology.</p>
         </div>
     </footer>
