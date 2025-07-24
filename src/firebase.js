@@ -5,13 +5,13 @@ import {getFirestore } from "firebase/firestore";
 
 // TODO: Replace the following with your app's Firebase project configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAFHzbX_8_t78vVLazO1Xkh25oqZyI_j7s",
-  authDomain: "myportfolio-ff472.firebaseapp.com",
-  projectId: "myportfolio-ff472",
-  storageBucket: "myportfolio-ff472.firebasestorage.app",
-  messagingSenderId: "223653507021",
-  appId: "1:223653507021:web:0ac3a03b6e675fd7c39e84",
-  measurementId: "G-TK911LPC3M"
+  apiKey:import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID,
+  measurementId: import.meta.env.VITE_MEASUREMENT_ID
 
 };
 
